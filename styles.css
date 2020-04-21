@@ -4,7 +4,7 @@ html {
     font-family: arial, sans-serif;
 }
 
-/*All Links*/
+/*All Links and buttons*/
 a {
     text-decoration: none; 
     padding-left: 15px; 
@@ -17,6 +17,10 @@ a:hover {
 
 a:visited {
     color: #000;
+}
+
+button:hover {
+    cursor: pointer; 
 }
 
 /*Navigation Bar*/
@@ -114,7 +118,6 @@ button[type=submit]:hover {
     background-color: #f8f8f8;
     border: 1px solid #c6c6c6;
     color: #222;
-    cursor: pointer;
 }
 
 button[type=submit]:focus {
